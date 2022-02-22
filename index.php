@@ -8,7 +8,6 @@
 
   <link rel="stylesheet" href="skills.css">
   <link rel="stylesheet" href="style.css">
-
   <link rel="stylesheet" href="bootstrap/bootstrap/css/bootstrap.min.css">
 </head>
 
@@ -45,6 +44,7 @@
             <li><a  href="about us.html">about us</a></li>
             <li><a  href="contact.html">Contact us</a></li>
           </ul>
+    </div>
   </header>
   <br>
        <div class="plan-header">
@@ -58,8 +58,6 @@
         
          <p>We are ever ready to give value to your money</p>
        </div>
-
-      </div>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">

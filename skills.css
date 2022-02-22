@@ -7,7 +7,7 @@ body{
     background-attachment: scroll;
 }
 .plan-header{
-    color: wheat;
+    color: rgb(28, 209, 43);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     animation: infinite;
 }
