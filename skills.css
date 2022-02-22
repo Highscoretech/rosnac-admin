@@ -1,0 +1,42 @@
+body{
+    background-image: url("image/web_back.jpg");
+    background-size: contain;
+
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: scroll;
+}
+.plan-header{
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: infinite;
+}
+.active{
+    color: rgb(230, 224, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+.card{
+    margin: 10px;
+    animation-play-state: running;
+    
+}
+footer{
+    color: white;
+}
+
+#pins-menu{
+    border: none;
+    background: none;
+    float: right;
+    
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: lavenderblush;
+}
