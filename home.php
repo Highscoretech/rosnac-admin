@@ -11,8 +11,6 @@
   <link rel="stylesheet" href="skills.css">
 </head>
 <body>
-<?php require('config.php');
-?>
   <header>
     </div>
     <div class="sticky">
