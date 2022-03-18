@@ -19,7 +19,7 @@
     </tr>
   </thead>
   <?php
-    require('herokudb.php');
+    require('config.php');
     $sql = "SELECT * FROM market" ;
     if ($result = mysqli_query($conn, $sql)) {
         while ($row = $result->fetch_assoc()) {
