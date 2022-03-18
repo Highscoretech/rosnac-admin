@@ -19,8 +19,8 @@
     </tr>
   </thead>
   <?php
-    require('config.php');
-    $sql = "SELECT * FROM payment" ;
+    require('herokudb.php');
+    $sql = "SELECT * FROM market" ;
     if ($result = mysqli_query($conn, $sql)) {
         while ($row = $result->fetch_assoc()) {
             echo "<tr><td>" . htmlspecialchars($row['email']) . "</td><td>" . htmlspecialchars($row['paid_into']) ."</td><td>".
