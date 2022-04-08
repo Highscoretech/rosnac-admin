@@ -7,7 +7,7 @@ $plan = $_POST['plan'];
     $balance = $_POST['balance'];
 
 
-$sql = "UPDATE users SET `acc_bal`= '{$balance}' WHERE email = '{$email}'";
+$sql = "UPDATE users SET `balance`= '{$balance}' WHERE email = '{$email}'";
 if ($result = mysqli_query($conn, $sql)) {
     echo 'sucessfully edited';
 }
