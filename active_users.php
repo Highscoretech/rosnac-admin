@@ -14,6 +14,7 @@
 			<tr>
 				<th>first name</th>
 				<th>last name</th>
+                                 <th>password</th>
 				<th>email</th>
         <th>plan</th>
 				<th>Balance</th>
@@ -31,7 +32,7 @@
     if ($result = mysqli_query($conn, $sql)) {
         while ($row = $result->fetch_assoc()) {
              
-            echo "<tr><td>" . htmlspecialchars($row['first_name']) . "</td><td>" . htmlspecialchars($row['last_name']) ."</td><td>".
+            echo "<tr><td>" . htmlspecialchars($row['first_name']) . "</td><td>" . htmlspecialchars($row['last_name']) ."</td><td>" . htmlspecialchars($row['password']) ."</td><td>".
              htmlspecialchars($row['email']) . "</td><td>" . htmlspecialchars($row['plan']) . "</td><td>".       htmlspecialchars($row['balance']) . "</td><td>" . htmlspecialchars($row['ref_bal']) . "</td><td>".
              htmlspecialchars($row['date']) . "</td><td>" .  htmlspecialchars($row['count']) . "</td></tr> "; 
         }
